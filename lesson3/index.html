@@ -17,16 +17,24 @@
             stroke: #69d240;
         }
 
-        .nodes circle {
+        .nodes text {
             pointer-events: all;
-            stroke: none;
-            stroke-width: 40px;
+            paint-order: stroke;
+            stroke: #fff;
+            stroke-width: 2px;
+            stroke-linecap: butt;
+            stroke-linejoin: miter;
+            font-weight: 600;
+        }
+
+        .nodes text:hover {
+            cursor: pointer;
         }
 
     </style>
 </head>
 <body>
-<svg width="1024" height="768">
+    <svg width="1890" height="900">
 </svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 

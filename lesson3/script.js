@@ -5,7 +5,7 @@ var svg = d3.select("svg"),
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function (d) {
         return d.id;
-    }).distance(250))
+    }).distance(300))
     .force("collide", d3.forceCollide(50))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -39,6 +39,7 @@ d3.json("../scripts/deps-d3.json", function (error, graph) {
         .data(graph.nodes)
         .enter().append("text")
         .text(d => d.id)
+        .attr("font-family", "Comic Sans MS")
         .call(d3.drag()
             .on("start", dragstarted)
             .on("drag", dragged)
