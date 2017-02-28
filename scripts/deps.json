@@ -1,0 +1,1300 @@
+[
+  {
+    "name": "accordion",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "accordion-heading-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/accordion"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiAccordionHeading",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/accordion"
+      }
+    ]
+  },
+  {
+    "name": "bindHtmlCompile",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiBindHtmlCompile",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/bindHtmlCompile"
+      }
+    ],
+    "directiveName": "xuiBindHtmlCompile"
+  },
+  {
+    "name": "busy",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiProgress"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "busy-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/busy"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiBusy",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/busy"
+      }
+    ],
+    "directiveName": "xuiBusy"
+  },
+  {
+    "name": "button",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "button-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/button"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiButton",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/button"
+      }
+    ],
+    "directiveName": "xuiButton"
+  },
+  {
+    "name": "checkbox",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiHelpHint"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "checkbox-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/checkbox"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiCheckbox",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/checkbox"
+      },
+      {
+        "name": "xuiCheckboxGroup",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/checkbox"
+      }
+    ],
+    "directiveName": "xuiCheckbox"
+  },
+  {
+    "name": "chiclets",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "chiclets-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/chiclets"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiChiclets",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/chiclets"
+      }
+    ],
+    "directiveName": "xuiChiclets"
+  },
+  {
+    "name": "clipboard",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiClipboard",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/clipboard"
+      }
+    ],
+    "directiveName": "xuiClipboard"
+  },
+  {
+    "name": "common",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiSelectOnFocus",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/common"
+      }
+    ]
+  },
+  {
+    "name": "content",
+    "deps": [
+      {
+        "type": "attribute",
+        "name": "xuiScrollbar"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "content-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/content"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiContent",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/content"
+      }
+    ],
+    "directiveName": "xuiContent"
+  },
+  {
+    "name": "datePicker",
+    "deps": [
+      {
+        "type": "attribute",
+        "name": "xuiSelectOnFocus"
+      },
+      {
+        "type": "attribute",
+        "name": "uibDatepickerPopup"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "datePicker-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/datePicker"
+      }
+    ],
+    "directives": [
+      {
+        "name": "uibDatepickerPopup",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/datePicker"
+      },
+      {
+        "name": "xuiDatePicker",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/datePicker"
+      }
+    ],
+    "directiveName": "xuiDatePicker"
+  },
+  {
+    "name": "datetimePicker",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiDatePicker"
+      },
+      {
+        "type": "element",
+        "name": "xuiTimePicker"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "datetimePicker-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/datetimePicker"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiDatetimePicker",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/datetimePicker"
+      }
+    ],
+    "directiveName": "xuiDatetimePicker"
+  },
+  {
+    "name": "diagnostics",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "diagnostics-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/diagnostics"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiDiagnostics",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/diagnostics"
+      }
+    ],
+    "directiveName": "xuiDiagnostics"
+  },
+  {
+    "name": "dialog",
+    "deps": [
+      {
+        "type": "attribute",
+        "name": "xuiBusy"
+      },
+      {
+        "type": "element",
+        "name": "xuiButton"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "element",
+        "name": "xuiDialog"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "dialog-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/dialog"
+      },
+      {
+        "filename": "dialog-service.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/dialog"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiDialog",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/dialog"
+      }
+    ],
+    "directiveName": "xuiDialog"
+  },
+  {
+    "name": "divider",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "divider-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/divider"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiDivider",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/divider"
+      }
+    ],
+    "directiveName": "xuiDivider"
+  },
+  {
+    "name": "dragdrop",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiDraggable",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/dragdrop"
+      },
+      {
+        "name": "xuiDroppable",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/dragdrop"
+      }
+    ]
+  },
+  {
+    "name": "dropdown",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiHelpHint"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "element",
+        "name": "xuiListitem"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiScrollbar"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "dropdown-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/dropdown"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiDropdown",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/dropdown"
+      },
+      {
+        "name": "xuiDropdownInputToggle",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/dropdown"
+      }
+    ],
+    "directiveName": "xuiDropdown"
+  },
+  {
+    "name": "expander",
+    "deps": [
+      {
+        "type": "attribute",
+        "name": "xuiExpanderTransclude"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "expander-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/expander"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiExpander",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/expander"
+      },
+      {
+        "name": "xuiExpanderTransclude",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/expander"
+      },
+      {
+        "name": "xuiExpanderHeading",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/expander"
+      }
+    ],
+    "directiveName": "xuiExpander"
+  },
+  {
+    "name": "footer",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiDiagnostics"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "footer-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/footer"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiFooter",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/footer"
+      }
+    ],
+    "directiveName": "xuiFooter"
+  },
+  {
+    "name": "globalKeys",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiGlobalKeys",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/globalKeys"
+      }
+    ],
+    "directiveName": "xuiGlobalKeys"
+  },
+  {
+    "name": "grid",
+    "deps": [
+      {
+        "type": "attribute",
+        "name": "xuiBusy"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiGridToolbarTransclude"
+      },
+      {
+        "type": "element",
+        "name": "xuiListview"
+      },
+      {
+        "type": "element",
+        "name": "xuiPager"
+      },
+      {
+        "type": "element",
+        "name": "xuiSearch"
+      },
+      {
+        "type": "element",
+        "name": "xuiSelector"
+      },
+      {
+        "type": "element",
+        "name": "xuiSorter"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "grid-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/grid"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiGrid",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/grid"
+      },
+      {
+        "name": "xuiGridToolbarTransclude",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/grid"
+      },
+      {
+        "name": "xuiGridToolbarContainer",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/grid"
+      },
+      {
+        "name": "swGrid",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/grid"
+      },
+      {
+        "name": "swGridToolbarTransclude",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/grid"
+      },
+      {
+        "name": "swGridToolbarContainer",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/grid"
+      }
+    ],
+    "directiveName": "xuiGrid"
+  },
+  {
+    "name": "helpHint",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiHelpHintTransclude",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/helpHint"
+      },
+      {
+        "name": "xuiHelpHint",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/helpHint"
+      }
+    ],
+    "directiveName": "xuiHelpHint"
+  },
+  {
+    "name": "icon",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "icon-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/icon"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiIcon",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/icon"
+      }
+    ],
+    "directiveName": "xuiIcon"
+  },
+  {
+    "name": "ifShow",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "ifShow-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/ifShow"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiIfShow",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/ifShow"
+      }
+    ],
+    "directiveName": "xuiIfShow"
+  },
+  {
+    "name": "listitem",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "listitem-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/listitem"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiListitem",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/listitem"
+      }
+    ],
+    "directiveName": "xuiListitem"
+  },
+  {
+    "name": "listview",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiCheckboxGroup"
+      },
+      {
+        "type": "element",
+        "name": "xuiListitem"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiToast"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "listview-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/listview"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiListview",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/listview"
+      }
+    ],
+    "directiveName": "xuiListview"
+  },
+  {
+    "name": "menu",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiButton"
+      },
+      {
+        "type": "element",
+        "name": "xuiCheckbox"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "menu-action-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "filename": "menu-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "filename": "menu-divider-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "filename": "menu-header-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "filename": "menu-link-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "filename": "menu-option-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiMenu",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "name": "xuiMenuAction",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "name": "xuiMenuDivider",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "name": "xuiMenuHeader",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "name": "xuiMenuLink",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      },
+      {
+        "name": "xuiMenuOption",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/menu"
+      }
+    ],
+    "directiveName": "xuiMenu"
+  },
+  {
+    "name": "message",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiButton"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "message-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/message"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiMessage",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/message"
+      }
+    ],
+    "directiveName": "xuiMessage"
+  },
+  {
+    "name": "pageContent",
+    "deps": [
+      {
+        "type": "attribute",
+        "name": "xuiBusy"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiScrollbar"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "pageContent-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/pageContent"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiPageContent",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/pageContent"
+      }
+    ],
+    "directiveName": "xuiPageContent"
+  },
+  {
+    "name": "pager",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiDropdown"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiScrollbar"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "pager-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/pager"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiPager",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/pager"
+      }
+    ],
+    "directiveName": "xuiPager"
+  },
+  {
+    "name": "panel",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiScrollbar"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "panel-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/panel"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiPanel",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/panel"
+      }
+    ],
+    "directiveName": "xuiPanel"
+  },
+  {
+    "name": "popover",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "popover-modal.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/popover"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiPopover",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/popover"
+      }
+    ],
+    "directiveName": "xuiPopover"
+  },
+  {
+    "name": "progress",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiHelpHint"
+      },
+      {
+        "type": "element",
+        "name": "xuiSpinner"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "progress-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/progress"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiProgress",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/progress"
+      }
+    ],
+    "directiveName": "xuiProgress"
+  },
+  {
+    "name": "radio",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiHelpHint"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "radio-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/radio"
+      },
+      {
+        "filename": "radioMessages-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/radio"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiRadio",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/radio"
+      },
+      {
+        "name": "xuiRadioMessages",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/radio"
+      }
+    ],
+    "directiveName": "xuiRadio"
+  },
+  {
+    "name": "scrollbar",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiScrollbar",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/scrollbar"
+      }
+    ],
+    "directiveName": "xuiScrollbar"
+  },
+  {
+    "name": "search",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiButton"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiSetFocus"
+      },
+      {
+        "type": "element",
+        "name": "xuiSpinner"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "search-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/search"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiSearch",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/search"
+      }
+    ],
+    "directiveName": "xuiSearch"
+  },
+  {
+    "name": "selector",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiCheckbox"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "element",
+        "name": "xuiListitem"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "selector-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/selector"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiSelector",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/selector"
+      }
+    ],
+    "directiveName": "xuiSelector"
+  },
+  {
+    "name": "setFocus",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiSetFocus",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/setFocus"
+      }
+    ],
+    "directiveName": "xuiSetFocus"
+  },
+  {
+    "name": "sorter",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiDropdown"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "sorter-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/sorter"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiSorter",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/sorter"
+      }
+    ],
+    "directiveName": "xuiSorter"
+  },
+  {
+    "name": "spinner",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiSpinner",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/spinner"
+      }
+    ],
+    "directiveName": "xuiSpinner"
+  },
+  {
+    "name": "subheader",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "subheader-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/subheader"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiSubheader",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/subheader"
+      }
+    ],
+    "directiveName": "xuiSubheader"
+  },
+  {
+    "name": "switch",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "switch-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/switch"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiSwitch",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/switch"
+      }
+    ],
+    "directiveName": "xuiSwitch"
+  },
+  {
+    "name": "tabs",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiIfShow"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "tab-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/tabs"
+      },
+      {
+        "filename": "tabs-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/tabs"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiTab",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/tabs"
+      },
+      {
+        "name": "xuiTabs",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/tabs"
+      },
+      {
+        "name": "xuiTabRouter",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/tabs"
+      },
+      {
+        "name": "xuiTabsRouter",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/tabs"
+      }
+    ],
+    "directiveName": "xuiTabs"
+  },
+  {
+    "name": "textbox",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiButton"
+      },
+      {
+        "type": "element",
+        "name": "xuiHelpHint"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "element",
+        "name": "xuiSpinner"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiModelWarning"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "textbox-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/textbox"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiTextbox",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/textbox"
+      },
+      {
+        "name": "xuiModelWarning",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/textbox"
+      }
+    ],
+    "directiveName": "xuiTextbox"
+  },
+  {
+    "name": "timeframePicker",
+    "deps": [
+      {
+        "type": "attribute",
+        "name": "xuiPopover"
+      },
+      {
+        "type": "element",
+        "name": "xuiButton"
+      },
+      {
+        "type": "element",
+        "name": "xuiTimeframePickerInline"
+      },
+      {
+        "type": "element",
+        "name": "xuiDatetimePicker"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "timeframePicker-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/timeframePicker"
+      },
+      {
+        "filename": "timeframePicker.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/timeframePicker"
+      },
+      {
+        "filename": "timeframePickerInline-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/timeframePicker"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiTimeframePickerInline",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/timeframePicker"
+      },
+      {
+        "name": "xuiTimeframePicker",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/timeframePicker"
+      }
+    ],
+    "directiveName": "xuiTimeframePicker"
+  },
+  {
+    "name": "timepicker",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiDropdown"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiTimePickerValidator"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "timepicker-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/timepicker"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiTimePicker",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/timepicker"
+      },
+      {
+        "name": "xuiTimePickerValidator",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/timepicker"
+      }
+    ]
+  },
+  {
+    "name": "toast",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiToast",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/toast"
+      }
+    ],
+    "directiveName": "xuiToast"
+  },
+  {
+    "name": "toolbar",
+    "deps": [],
+    "templates": [
+      {
+        "filename": "toolbar-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/toolbar"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiToolbar",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/toolbar"
+      },
+      {
+        "name": "xuiToolbarDivider",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/toolbar"
+      },
+      {
+        "name": "xuiToolbarItem",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/toolbar"
+      },
+      {
+        "name": "xuiToolbarSplitter",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/toolbar"
+      }
+    ],
+    "directiveName": "xuiToolbar"
+  },
+  {
+    "name": "treeview",
+    "deps": [
+      {
+        "type": "element",
+        "name": "xuiCheckbox"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiToast"
+      },
+      {
+        "type": "element",
+        "name": "xuiTreeviewChildren"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiTreeviewTransclude"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiTreeviewKeyboard"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "treeview-children-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/treeview"
+      },
+      {
+        "filename": "treeview-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/treeview"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiTreeviewChildren",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/treeview"
+      },
+      {
+        "name": "xuiTreeview",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/treeview"
+      },
+      {
+        "name": "xuiTreeviewKeyboard",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/treeview"
+      },
+      {
+        "name": "xuiTreeviewTransclude",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/treeview"
+      }
+    ],
+    "directiveName": "xuiTreeview"
+  },
+  {
+    "name": "watchCounter",
+    "deps": [],
+    "directives": [
+      {
+        "name": "xuiWatchCounter",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/watchCounter"
+      }
+    ],
+    "directiveName": "xuiWatchCounter"
+  },
+  {
+    "name": "wizard",
+    "deps": [
+      {
+        "type": "attribute",
+        "name": "xuiBusy"
+      },
+      {
+        "type": "element",
+        "name": "xuiButton"
+      },
+      {
+        "type": "element",
+        "name": "xuiIcon"
+      },
+      {
+        "type": "element",
+        "name": "xuiWizardStep"
+      },
+      {
+        "type": "attribute",
+        "name": "xuiWizardSummaryTransclude"
+      }
+    ],
+    "templates": [
+      {
+        "filename": "wizard-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/wizard"
+      },
+      {
+        "filename": "wizard-step-directive.html",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/wizard"
+      }
+    ],
+    "directives": [
+      {
+        "name": "xuiWizard",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/wizard"
+      },
+      {
+        "name": "xuiWizardStep",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/wizard"
+      },
+      {
+        "name": "xuiWizardSummary",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/wizard"
+      },
+      {
+        "name": "xuiWizardSummaryTransclude",
+        "path": "/home/itsv/WebstormProjects/Xui/ng1/src/components/wizard"
+      }
+    ],
+    "directiveName": "xuiWizard"
+  }
+]

@@ -2,6 +2,13 @@
   "name": "application-name",
   "version": "0.0.1",
   "devDependencies": {
-    "@types/d3": "^4.5.0"
+    "@types/d3": "^4.5.0",
+    "cheerio": "^0.22.0",
+    "install": "^0.8.7",
+    "npm": "^4.3.0",
+    "typescript": "^2.2.1"
+  },
+  "scripts": {
+    "start": "tsc --target ES6 --module commonjs scripts/dependency-parser.ts && node scripts/dependency-parser.js"
   }
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D3 is doing 2-way html binding</title>
+    <style>
+
+        .hidden {
+            display: none;
+        }
+
+        .links line.element {
+            stroke: #ff4123;
+        }
+
+        .links line.attribute {
+            stroke: #69d240;
+        }
+
+        .nodes circle {
+            pointer-events: all;
+            stroke: none;
+            stroke-width: 40px;
+        }
+
+    </style>
+</head>
+<body>
+<svg width="1024" height="768">
+</svg>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,708 @@
+{
+  "nodes": [
+    {
+      "id": "AccordionHeading",
+      "visible": true
+    },
+    {
+      "id": "BindHtmlCompile",
+      "visible": true
+    },
+    {
+      "id": "Busy",
+      "visible": true
+    },
+    {
+      "id": "Button",
+      "visible": true
+    },
+    {
+      "id": "Checkbox",
+      "visible": true
+    },
+    {
+      "id": "CheckboxGroup",
+      "visible": true
+    },
+    {
+      "id": "Chiclets",
+      "visible": true
+    },
+    {
+      "id": "Clipboard",
+      "visible": true
+    },
+    {
+      "id": "SelectOnFocus",
+      "visible": true
+    },
+    {
+      "id": "Content",
+      "visible": true
+    },
+    {
+      "id": "uibDatepickerPopup",
+      "visible": true
+    },
+    {
+      "id": "DatePicker",
+      "visible": true
+    },
+    {
+      "id": "DatetimePicker",
+      "visible": true
+    },
+    {
+      "id": "Diagnostics",
+      "visible": true
+    },
+    {
+      "id": "Dialog",
+      "visible": true
+    },
+    {
+      "id": "Divider",
+      "visible": true
+    },
+    {
+      "id": "Draggable",
+      "visible": true
+    },
+    {
+      "id": "Droppable",
+      "visible": true
+    },
+    {
+      "id": "Dropdown",
+      "visible": true
+    },
+    {
+      "id": "DropdownInputToggle",
+      "visible": true
+    },
+    {
+      "id": "Expander",
+      "visible": true
+    },
+    {
+      "id": "ExpanderTransclude",
+      "visible": true
+    },
+    {
+      "id": "ExpanderHeading",
+      "visible": true
+    },
+    {
+      "id": "Footer",
+      "visible": true
+    },
+    {
+      "id": "GlobalKeys",
+      "visible": true
+    },
+    {
+      "id": "Grid",
+      "visible": true
+    },
+    {
+      "id": "GridToolbarTransclude",
+      "visible": true
+    },
+    {
+      "id": "GridToolbarContainer",
+      "visible": true
+    },
+    {
+      "id": "swGrid",
+      "visible": true
+    },
+    {
+      "id": "swGridToolbarTransclude",
+      "visible": true
+    },
+    {
+      "id": "swGridToolbarContainer",
+      "visible": true
+    },
+    {
+      "id": "HelpHintTransclude",
+      "visible": true
+    },
+    {
+      "id": "HelpHint",
+      "visible": true
+    },
+    {
+      "id": "Icon",
+      "visible": true
+    },
+    {
+      "id": "IfShow",
+      "visible": true
+    },
+    {
+      "id": "Listitem",
+      "visible": true
+    },
+    {
+      "id": "Listview",
+      "visible": true
+    },
+    {
+      "id": "Menu",
+      "visible": true
+    },
+    {
+      "id": "MenuAction",
+      "visible": true
+    },
+    {
+      "id": "MenuDivider",
+      "visible": true
+    },
+    {
+      "id": "MenuHeader",
+      "visible": true
+    },
+    {
+      "id": "MenuLink",
+      "visible": true
+    },
+    {
+      "id": "MenuOption",
+      "visible": true
+    },
+    {
+      "id": "Message",
+      "visible": true
+    },
+    {
+      "id": "PageContent",
+      "visible": true
+    },
+    {
+      "id": "Pager",
+      "visible": true
+    },
+    {
+      "id": "Panel",
+      "visible": true
+    },
+    {
+      "id": "Popover",
+      "visible": true
+    },
+    {
+      "id": "Progress",
+      "visible": true
+    },
+    {
+      "id": "Radio",
+      "visible": true
+    },
+    {
+      "id": "RadioMessages",
+      "visible": true
+    },
+    {
+      "id": "Scrollbar",
+      "visible": true
+    },
+    {
+      "id": "Search",
+      "visible": true
+    },
+    {
+      "id": "Selector",
+      "visible": true
+    },
+    {
+      "id": "SetFocus",
+      "visible": true
+    },
+    {
+      "id": "Sorter",
+      "visible": true
+    },
+    {
+      "id": "Spinner",
+      "visible": true
+    },
+    {
+      "id": "Subheader",
+      "visible": true
+    },
+    {
+      "id": "Switch",
+      "visible": true
+    },
+    {
+      "id": "Tab",
+      "visible": true
+    },
+    {
+      "id": "Tabs",
+      "visible": true
+    },
+    {
+      "id": "TabRouter",
+      "visible": true
+    },
+    {
+      "id": "TabsRouter",
+      "visible": true
+    },
+    {
+      "id": "Textbox",
+      "visible": true
+    },
+    {
+      "id": "ModelWarning",
+      "visible": true
+    },
+    {
+      "id": "TimeframePickerInline",
+      "visible": true
+    },
+    {
+      "id": "TimeframePicker",
+      "visible": true
+    },
+    {
+      "id": "TimePicker",
+      "visible": true
+    },
+    {
+      "id": "TimePickerValidator",
+      "visible": true
+    },
+    {
+      "id": "Toast",
+      "visible": true
+    },
+    {
+      "id": "Toolbar",
+      "visible": true
+    },
+    {
+      "id": "ToolbarDivider",
+      "visible": true
+    },
+    {
+      "id": "ToolbarItem",
+      "visible": true
+    },
+    {
+      "id": "ToolbarSplitter",
+      "visible": true
+    },
+    {
+      "id": "TreeviewChildren",
+      "visible": true
+    },
+    {
+      "id": "Treeview",
+      "visible": true
+    },
+    {
+      "id": "TreeviewKeyboard",
+      "visible": true
+    },
+    {
+      "id": "TreeviewTransclude",
+      "visible": true
+    },
+    {
+      "id": "WatchCounter",
+      "visible": true
+    },
+    {
+      "id": "Wizard",
+      "visible": true
+    },
+    {
+      "id": "WizardStep",
+      "visible": true
+    },
+    {
+      "id": "WizardSummary",
+      "visible": true
+    },
+    {
+      "id": "WizardSummaryTransclude",
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "source": "Busy",
+      "target": "Progress",
+      "type": "element"
+    },
+    {
+      "source": "Checkbox",
+      "target": "HelpHint",
+      "type": "element"
+    },
+    {
+      "source": "Chiclets",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Content",
+      "target": "Scrollbar",
+      "type": "attribute"
+    },
+    {
+      "source": "DatePicker",
+      "target": "SelectOnFocus",
+      "type": "attribute"
+    },
+    {
+      "source": "DatePicker",
+      "target": "uibDatepickerPopup",
+      "type": "attribute"
+    },
+    {
+      "source": "DatePicker",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "DatetimePicker",
+      "target": "DatePicker",
+      "type": "element"
+    },
+    {
+      "source": "DatetimePicker",
+      "target": "TimePicker",
+      "type": "element"
+    },
+    {
+      "source": "Dialog",
+      "target": "Busy",
+      "type": "attribute"
+    },
+    {
+      "source": "Dialog",
+      "target": "Button",
+      "type": "element"
+    },
+    {
+      "source": "Dialog",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Dialog",
+      "target": "Dialog",
+      "type": "element"
+    },
+    {
+      "source": "Dropdown",
+      "target": "HelpHint",
+      "type": "element"
+    },
+    {
+      "source": "Dropdown",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Dropdown",
+      "target": "Listitem",
+      "type": "element"
+    },
+    {
+      "source": "Dropdown",
+      "target": "Scrollbar",
+      "type": "attribute"
+    },
+    {
+      "source": "Expander",
+      "target": "ExpanderTransclude",
+      "type": "attribute"
+    },
+    {
+      "source": "Expander",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Footer",
+      "target": "Diagnostics",
+      "type": "element"
+    },
+    {
+      "source": "Grid",
+      "target": "Busy",
+      "type": "attribute"
+    },
+    {
+      "source": "Grid",
+      "target": "GridToolbarTransclude",
+      "type": "attribute"
+    },
+    {
+      "source": "Grid",
+      "target": "Listview",
+      "type": "element"
+    },
+    {
+      "source": "Grid",
+      "target": "Pager",
+      "type": "element"
+    },
+    {
+      "source": "Grid",
+      "target": "Search",
+      "type": "element"
+    },
+    {
+      "source": "Grid",
+      "target": "Selector",
+      "type": "element"
+    },
+    {
+      "source": "Grid",
+      "target": "Sorter",
+      "type": "element"
+    },
+    {
+      "source": "Listview",
+      "target": "CheckboxGroup",
+      "type": "element"
+    },
+    {
+      "source": "Listview",
+      "target": "Listitem",
+      "type": "element"
+    },
+    {
+      "source": "Listview",
+      "target": "Toast",
+      "type": "attribute"
+    },
+    {
+      "source": "Menu",
+      "target": "Button",
+      "type": "element"
+    },
+    {
+      "source": "Menu",
+      "target": "Checkbox",
+      "type": "element"
+    },
+    {
+      "source": "Message",
+      "target": "Button",
+      "type": "element"
+    },
+    {
+      "source": "Message",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "PageContent",
+      "target": "Busy",
+      "type": "attribute"
+    },
+    {
+      "source": "PageContent",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "PageContent",
+      "target": "Scrollbar",
+      "type": "attribute"
+    },
+    {
+      "source": "Pager",
+      "target": "Dropdown",
+      "type": "element"
+    },
+    {
+      "source": "Pager",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Pager",
+      "target": "Scrollbar",
+      "type": "attribute"
+    },
+    {
+      "source": "Panel",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Panel",
+      "target": "Scrollbar",
+      "type": "attribute"
+    },
+    {
+      "source": "Popover",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Progress",
+      "target": "HelpHint",
+      "type": "element"
+    },
+    {
+      "source": "Progress",
+      "target": "Spinner",
+      "type": "element"
+    },
+    {
+      "source": "Radio",
+      "target": "HelpHint",
+      "type": "element"
+    },
+    {
+      "source": "Search",
+      "target": "Button",
+      "type": "element"
+    },
+    {
+      "source": "Search",
+      "target": "SetFocus",
+      "type": "attribute"
+    },
+    {
+      "source": "Search",
+      "target": "Spinner",
+      "type": "element"
+    },
+    {
+      "source": "Selector",
+      "target": "Checkbox",
+      "type": "element"
+    },
+    {
+      "source": "Selector",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Selector",
+      "target": "Listitem",
+      "type": "element"
+    },
+    {
+      "source": "Sorter",
+      "target": "Dropdown",
+      "type": "element"
+    },
+    {
+      "source": "Tabs",
+      "target": "IfShow",
+      "type": "element"
+    },
+    {
+      "source": "Textbox",
+      "target": "Button",
+      "type": "element"
+    },
+    {
+      "source": "Textbox",
+      "target": "HelpHint",
+      "type": "element"
+    },
+    {
+      "source": "Textbox",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Textbox",
+      "target": "Spinner",
+      "type": "element"
+    },
+    {
+      "source": "Textbox",
+      "target": "ModelWarning",
+      "type": "attribute"
+    },
+    {
+      "source": "TimeframePicker",
+      "target": "Popover",
+      "type": "attribute"
+    },
+    {
+      "source": "TimeframePicker",
+      "target": "Button",
+      "type": "element"
+    },
+    {
+      "source": "TimeframePicker",
+      "target": "TimeframePickerInline",
+      "type": "element"
+    },
+    {
+      "source": "TimeframePicker",
+      "target": "DatetimePicker",
+      "type": "element"
+    },
+    {
+      "source": "Treeview",
+      "target": "Checkbox",
+      "type": "element"
+    },
+    {
+      "source": "Treeview",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Treeview",
+      "target": "Toast",
+      "type": "attribute"
+    },
+    {
+      "source": "Treeview",
+      "target": "TreeviewChildren",
+      "type": "element"
+    },
+    {
+      "source": "Treeview",
+      "target": "TreeviewTransclude",
+      "type": "attribute"
+    },
+    {
+      "source": "Treeview",
+      "target": "TreeviewKeyboard",
+      "type": "attribute"
+    },
+    {
+      "source": "Wizard",
+      "target": "Busy",
+      "type": "attribute"
+    },
+    {
+      "source": "Wizard",
+      "target": "Button",
+      "type": "element"
+    },
+    {
+      "source": "Wizard",
+      "target": "Icon",
+      "type": "element"
+    },
+    {
+      "source": "Wizard",
+      "target": "WizardStep",
+      "type": "element"
+    },
+    {
+      "source": "Wizard",
+      "target": "WizardSummaryTransclude",
+      "type": "attribute"
+    }
+  ]
+}
