@@ -7,7 +7,7 @@
 Feb 17, 2011 - Usable charting library (almost all you need)
 
 #### https://github.com/d3/d3/releases/tag/v2.0.0
-Aug 23, 2011 - Engeniiring mistake with Exit/Enter/Update pattern (will discuss later)
+Aug 23, 2011 - Engeneering mistake with Exit/Enter/Update pattern (will discuss later)
 https://medium.com/@mbostock/what-makes-software-good-943557f8a488# - here is the great article `What Makes Software Good` where Mike describes own mistakes.
 
 #### https://github.com/d3/d3/releases/tag/v3.0.0
