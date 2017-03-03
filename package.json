@@ -9,6 +9,10 @@
     "typescript": "^2.2.1"
   },
   "scripts": {
-    "start": "tsc --target ES6 --module commonjs scripts/dependency-parser.ts && node scripts/dependency-parser.js"
+    "start": "tsc --target ES6 --module commonjs scripts/dependency-parser.ts && node scripts/dependency-parser.js",
+    "l2": "tsc --target ES6 --module commonjs --watch lesson2/script.ts"
+  },
+  "dependencies": {
+    "d3": "^4.7.1"
   }
 }
